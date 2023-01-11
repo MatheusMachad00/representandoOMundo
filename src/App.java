@@ -28,10 +28,10 @@ public class App {
                 System.out.println("Errou feio, errou rude");
             } else if (choice == 1 && choice3 == 2) {
                 System.out.println("Acertou mizeravi");
-            } else
-                System.exit(0);
+            }
             number3.close();
-        }
+        } else
+            System.exit(0);
         number2.close();
         number.close();
     }
